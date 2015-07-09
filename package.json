@@ -21,7 +21,7 @@
   "keywords": [
     "Mongoose",
     "Duplicate",
-    "Mongoose error",
+    "Mongoose error"
   ],
   "devDependencies": {
     "chai": "^3.0.0",
