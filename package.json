@@ -1,0 +1,30 @@
+{
+  "name": "mongoose-extract-duplicate-field",
+  "version": "1.0.0",
+  "description": "Extracts duplicate key name from Mongoose error with code 11000.",
+  "license": "MIT",
+  "repository": "alexbooker/mongoose-extract-duplicate-field",
+  "author": {
+    "name": "Alex Booker",
+    "email": "alexbooker@fastmail.im",
+    "url": "github.com/alexbooker/mongoose-extract-duplicate-field"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "Mongoose",
+    "Duplicate",
+    "Mongoose error",
+  ],
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "*"
+  }
+}
