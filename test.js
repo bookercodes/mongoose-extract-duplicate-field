@@ -27,4 +27,9 @@ it('should throw if error is invalid', function () {
   (function () {
     sut({code: 10});
   }).should.Throw(Error, 'error should be a duplicate key error with code 11000');
+  (function () {
+    sut({
+      code: 11000
+    });
+  }).should.Throw(Error, 'error.message cannot be undefined');
 });
