@@ -5,7 +5,7 @@
 _This simple module extracts the name of a duplicate field from the Mongoose "duplicate
 key" error message object._
 
-You can install it using npm:
+You can install it using [npm](https://www.npmjs.com/package/mongoose-extract-duplicate-field):
 
 ```bash
 npm install --save mongoose-extract-duplicate-field
