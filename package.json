@@ -1,6 +1,6 @@
 {
   "name": "mongoose-extract-duplicate-field",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Extracts duplicate key name from Mongoose error with code 11000.",
   "license": "MIT",
   "repository": "alexbooker/mongoose-extract-duplicate-field",
