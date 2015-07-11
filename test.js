@@ -1,6 +1,8 @@
 'use strict';
+
 var sut = require('./');
 var chai   = require('chai');
+/*jshint unused:false*/
 var should = chai.should();
 
 it('should return correct field name', function () {
