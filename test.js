@@ -16,3 +16,15 @@ it('should return correct field name', function () {
   var key = sut(error);
   key.should.equal('username');
 });
+
+it('should throw if error is invalid', function () {
+  (function () {
+    sut();
+  }).should.Throw(Error, 'error cannot be undefined');
+  (function () {
+    sut({});
+  }).should.Throw(Error, 'error.code cannot be undefined');
+  (function () {
+    sut({code: 10});
+  }).should.Throw(Error, 'error should be a duplicate key error with code 11000');
+});
